@@ -11,6 +11,14 @@ function MessageSender() {
 
         const handleSubmit = e => {
             e.preventDefault(); /* prevents the page from refreshing */
+
+//place for db stuff
+
+
+   setInput("");
+   setImageUrl(""); /* clears the input box when a user hits enter */
+
+
         }
     return (
         <div className='messageSender'>
