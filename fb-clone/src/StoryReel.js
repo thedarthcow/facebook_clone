@@ -5,17 +5,25 @@ import './StoryReel.css';
 function StoryReel() {
     return (
         <div className="storyReel">
-            <Story image="https://cdn140.picsart.com/327464379069201.jpg?type=webp&to=crop&r=256"
-            profileSrc="https://cdn131.picsart.com/323779276307201.jpg?type=webp&to=crop&r=256"
-            title="Model" />
+            <Story image="https://images.unsplash.com/photo-1605152182393-89837947eecd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            profileSrc="https://images.unsplash.com/photo-1605152182450-fced1edb78dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            title="Shyla" />
 
-            <Story image="https://cdn131.picsart.com/315934060092201.jpg?type=webp&to=crop&r=256"
-            profileSrc="https://cdn131.picsart.com/323038550298201.jpg?type=webp&to=crop&r=256"
-            title="Bearded Guy" />
+            <Story image="https://images.unsplash.com/photo-1605106155372-5a3cf55038f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            profileSrc="https://images.unsplash.com/photo-1605092676920-8ac5ae40c7c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            title="Daniel" />
 
-            <Story image="https://cdn141.picsart.com/325429489094201.jpg?type=webp&to=crop&r=256"
-            profileSrc="https://cdn131.picsart.com/325488229053201.jpg?type=webp&to=crop&r=256"
-            title="Photoshop" />
+            <Story image="https://images.unsplash.com/photo-1601758123870-856824bb7a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            profileSrc="https://images.unsplash.com/photo-1605140589541-12c5e3877890?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            title="Leah" />
+
+            <Story image="https://images.unsplash.com/photo-1581568703275-9c6cd6b40b0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            profileSrc="https://images.unsplash.com/photo-1605116673625-4bd6298732a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            title="Robbie" />
+
+            <Story image="https://images.unsplash.com/photo-1583385183144-e134f61fa433?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            profileSrc="https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            title="Mark" />
         </div>
     )
 }

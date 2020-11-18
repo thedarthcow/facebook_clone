@@ -12,8 +12,10 @@ import AddIcon from "@material-ui/icons/Add";
 import ForumIcon from "@material-ui/icons/Forum";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { useStateValue } from './StateProvider';
 
 function Header() {
+    const [{ user }, dispatch] = useStateValue();
     return <div className="header">
         <div className="header__left">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/214px-Facebook_f_logo_%282019%29.svg.png"
@@ -47,8 +49,8 @@ function Header() {
 
         <div className="header__right">
             <div className="header__info">
-                <Avatar /> 
-                <h4>Brad</h4>
+                <Avatar src={user.photoURL} /> 
+                <h4>{user.displayName}</h4>
             </div>
 
             <IconButton>
